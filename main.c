@@ -1,32 +1,32 @@
+/******************************************************************************
+Pentru a o elibera pe Ileana Cosânzeana, Făt-Frumos trebuie să parcurgă x km.
+El merge zilnic a km, dar Zâna-ce-Rea îl duce în fiecare noapte cu b km înapoi, 
+b<a. Elaborați un program prin intermediul căruia se va afișa numărul de  zile 
+necesare pentru ca Făt-Frumos să o elibereze pe Ileana Cosânzeana.**************/
+
 #include <stdio.h>
-     int n, i, rmax, rmin;
-     int a[30], max, min;
-               int main()
-                {
-                  printf("dati n= ");
-                  scanf("%d", &n);
-               // }
-              // while ((n<1)||(n>20));
-               for(i=0; i<n; i++)
-                {
-                  printf("a(%d)=", i);
-                  scanf("%d",&a[i]);
-               }
-               max=a[0]; rmax=0;
-               min=a[0]; rmin=0;
-   for(i=0; i<n; i++)
+
+int x, d, zile, a, b;
+
+int main()
+{
+    printf("dati trei valori \n");
+    scanf("%d %d %d", &x, &a, &b);
+d=0;
+zile =0;
+
+   while (d<x)
+  
     {
-      if (a[i] > max)
-       {
-         max=a[i]; rmax=i;
-       }              
-      if (a[i] < min)
-       {
-         min=a[i]; rmin=i;
-       }
-    }                 
-               printf("maxumul este %d si se afla pe pozitia %d\n", max, rmax);
-               printf("minimul este %d si se afla pe pozitia %d", min, rmin);
-return 0;
-            }
+        d= d+a -b; 
+        zile++;                                
+        //printf("in ziua %d Făt-Frumos va parcurge %d km.\n", zile, d);
+    }
+    printf("Făt-Frumos are nevoie de: %d zile", zile);
+
+    return 0;
+}
+
+
+
 
