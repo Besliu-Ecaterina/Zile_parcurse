@@ -10,6 +10,7 @@ Pentru a rula proiectul accesați acest link : https://repl.it/@EcaterinaBeliu/Z
 ( cum lucrează din punct de vedere a algoritmului, se poate imagini, scheme logice sau explicația pe pași)
 
 ## 3. SCREENSHOTURI 
-(cum lucrează aplicația)
+![Captură](https://user-images.githubusercontent.com/75802190/103301627-74860280-4a0a-11eb-8638-5b14851d2c4d.PNG)
+
 
 ## 4. CONCLUZII
