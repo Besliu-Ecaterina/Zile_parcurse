@@ -7,7 +7,7 @@ Pentru a rula proiectul accesați acest link : https://repl.it/@EcaterinaBeliu/Z
 (ce problemă soluționează acest program)
 
 ## 2. DESCRIEREA ALGORITMULUI 
-( cum lucrează din punct de vedere a algoritmului, se poate imagini, scheme logice sau explicația pe pași)
+![Schema_bloc](https://user-images.githubusercontent.com/75802190/103302761-10187280-4a0d-11eb-83a2-bc6dd55ca149.png)
 
 ## 3. SCREENSHOTURI 
 ![Captură](https://user-images.githubusercontent.com/75802190/103301627-74860280-4a0a-11eb-8638-5b14851d2c4d.PNG)
